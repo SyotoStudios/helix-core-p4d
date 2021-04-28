@@ -78,7 +78,7 @@ VOLUME $P4HOME
 
 ENTRYPOINT \
   init.sh && \
-  bash
+  sleep infinity
 
 HEALTHCHECK \
   --interval=2m \
